@@ -44,10 +44,7 @@ function ProductScreen(props) {
                                 Price: <b>Rs {product.price}</b>
                             </li>
                             <li>
-                                Description:
-                                <div>
-                                    {product.description}
-                                </div>
+                                Description: {product.description} 
                             </li>
                         </ul>
                     </div>
