@@ -156,8 +156,8 @@ a:hover{
    padding-left: 10rem;
  }
  .details-image img{
-   max-width: 50rem;
-   height: 40rem;
+   width: 30rem;
+   height: 30rem;
    widows: 100%;
  }
  .details-info{
