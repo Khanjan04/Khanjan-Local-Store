@@ -35,7 +35,7 @@ function ProductScreen(props) {
                     <div className="details-info">
                         <ul>
                             <li>
-                                <h4>{product.name}</h4>
+                                <h2>{product.name}</h2>
                             </li>
                             <li>
                                 {product.rating} Stars ({product.numReviews} Reviews)

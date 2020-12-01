@@ -147,32 +147,44 @@ a:hover{
  /* Product Details */
  .details{
    display: flex;
-   justify-content: space-between;
    align-items: flex-start;
    flex-wrap: wrap;
    padding: 1rem;
  }
  .details-image{
-   flex: 2 1 60rem;
+   flex: 1;
+   padding-left: 10rem;
  }
  .details-image img{
-   max-width: 60rem;
+   max-width: 50rem;
+   height: 40rem;
    widows: 100%;
  }
  .details-info{
-  flex: 1 1 30rem;
+  flex: 1;
 }
 .details-action{
-  flex: 1 1 30rem;
+  flex: 1;
 }
 
-.details-info ul, .details-action ul{
+.details-info ul{
+  list-style-type: none;
+}
+
+.details-info li{
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.details-action ul{
   list-style-type: none;
   padding: 0;
 }
-.details-info li, .details-action li{
+
+.details-action li{
   margin-bottom: 1rem;
 }
+
 .back-to-result{
   padding: 1rem;
 }
