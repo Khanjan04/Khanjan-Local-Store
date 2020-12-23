@@ -23,6 +23,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "scripts-2": {
+    "start": "node fileName.js",
+    "start:dev": "nodemon fileName.js"
+},
   "eslintConfig": {
     "extends": "react-app"
   },
