@@ -1,5 +1,4 @@
 {
-  "homepage": "http://Khanjan04.github.io/KhanjanStore",
   "name": "frontend",
   "proxy": "http://192.168.43.117:5000",
   "version": "0.1.0",
@@ -20,16 +19,10 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "scripts-2": {
-    "start": "node fileName.js",
-    "start:dev": "nodemon fileName.js"
   },
   "eslintConfig": {
     "extends": "react-app"
