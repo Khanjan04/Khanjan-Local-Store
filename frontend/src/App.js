@@ -71,11 +71,10 @@ function App() {
             
         </main>
         <footer className="footer">
-            All rights reserved.
+            All rights are reserved.
         </footer>
     </div>
     </BrowserRouter>
   );
 }
-
 export default App;
