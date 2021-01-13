@@ -46,7 +46,7 @@ function App() {
         <aside className="sidebar">
             <h3>Shopping Categories</h3>
             <button className="sidebar-close-button" onClick={closeMenu}>x</button>
-            <ul>
+            <ul className="sidebar-list">
                 <li>
                     <a href="">Pants</a>
                 </li>
