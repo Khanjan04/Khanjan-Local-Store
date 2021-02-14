@@ -26,7 +26,6 @@ function App() {
 
     return (
         <BrowserRouter>
-
             <div className="grid-container">
                 <header className="header">
                     <div className="brand">
@@ -55,6 +54,9 @@ function App() {
                         </li>
                         <li>
                             <a href="/">Frocks</a>
+                        </li>
+                        <li>
+                            <a href="/">T-Shirts</a>
                         </li>
                     </ul>
                 </aside>
