@@ -31,7 +31,7 @@ function App() {
                     <div className="brand">
                         <button onClick={openMenu}>
                             &#9776;
-                </button>
+                        </button>
                         <Link to="/">Khanjan</Link>
                     </div>
                     <div className="header-links">
