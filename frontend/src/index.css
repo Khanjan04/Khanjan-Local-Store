@@ -128,9 +128,13 @@ a:hover {
   width: 23rem;
   background-color: #f0f0f0;
   height: 100%;
+  padding-left: 15px;
 }
 .sidebar-list {
   font-size: 1.8rem;
+}
+.sidebar-list li {
+  padding-bottom: 7px;
 }
 .sidebar.open {
   transform: translateX(0);
