@@ -198,7 +198,7 @@ a:hover {
 }
 
 .back-to-result {
-  padding: 1rem;
+  margin-left: 2rem;
 }
 .details-action {
   border: 0.1rem #808080 solid;
