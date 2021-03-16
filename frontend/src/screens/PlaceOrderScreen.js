@@ -63,7 +63,7 @@ function PlaceOrderScreen(props) {
                             cartItems.length === 0 ?
                                 <div>
                                     Cart is empty
-                    </div>
+                                </div>
                                 :
                                 cartItems.map(item =>
                                     <li>
