@@ -54,10 +54,10 @@ function PlaceOrderScreen(props) {
                         <li>
                             <h3>
                                 Shopping Cart
-                    </h3>
+                            </h3>
                             <div>
                                 Price
-                    </div>
+                            </div>
                         </li>
                         {
                             cartItems.length === 0 ?
