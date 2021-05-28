@@ -58,6 +58,24 @@ function App() {
                         <li>
                             <a href="/">T-Shirts</a>
                         </li>
+                        <li>
+                            <a href="/">Trousers</a>
+                        </li>
+                        <li>
+                            <a href="/">Leggings</a>
+                        </li>
+                        <li>
+                            <a href="/">Capri</a>
+                        </li>
+                        <li>
+                            <a href="/">Suits</a>
+                        </li>
+                        <li>
+                            <a href="/">Hoodies</a>
+                        </li>
+                        <li>
+                            <a href="/">Track Pants</a>
+                        </li>
                     </ul>
                 </aside>
                 <main className="main">
