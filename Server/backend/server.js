@@ -29,7 +29,6 @@ app.get("/api/products/:id", (req, res) => {
         res.send(product);
     else
         res.status(404).send({ msg: "Product Not Found." });
-
 });
 
 app.get("/api/products", (req, res) => {
