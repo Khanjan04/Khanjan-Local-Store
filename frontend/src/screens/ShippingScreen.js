@@ -44,8 +44,14 @@ function ShippingScreen(props) {
                 </li>
                 <li>
                     <label htmlFor="country">Country</label>
-                    <input type="text" name="country" id="country" onChange={(e) => setCountry(e.target.value)}>
+                    <input list="countrys" name="country" id="country" onChange={(e) => setCountry(e.target.value)}>
                     </input>
+                    <datalist id="countrys">
+                        <option value="India"></option>
+                        <option value="America"></option>
+                        <option value="Europe"></option>
+                        <option value="UK"></option>
+                    </datalist>
                 </li>
                 <li>
                     <button type="submit" className="button primary">Continue</button>
