@@ -38,7 +38,7 @@ function App() {
                         <a href="cart">Cart</a>
                         {
                             userInfo ? <Link to="/profile">{userInfo.name}</Link> :
-                                <Link to="/signin">Signin</Link>
+                                <Link to="/signin">Sign In</Link>
                         }
                     </div>
                 </header>
