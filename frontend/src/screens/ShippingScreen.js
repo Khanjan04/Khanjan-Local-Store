@@ -49,8 +49,12 @@ function ShippingScreen(props) {
                     <datalist id="countrys">
                         <option value="India"></option>
                         <option value="America"></option>
-                        <option value="Europe"></option>
+                        <option value="Russia"></option>
+                        <option value="Germany"></option>
+                        <option value="Italy"></option>
+                        <option value="France"></option>
                         <option value="UK"></option>
+                        <option value="Australia"></option>
                     </datalist>
                 </li>
                 <li>
