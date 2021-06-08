@@ -351,23 +351,18 @@ input {
   justify-content: space-between;
   align-items: flex-start;
 }
-
 .content-margined {
   margin: 1rem;
 }
-
 .table {
   width: 100%;
 }
-
 th {
   text-align: center;
 }
-
 td {
   text-align: center;
 }
-
 tbody > tr:nth-child(odd) {
   background-color: #f0f0f0;
 }
