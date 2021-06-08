@@ -62,13 +62,7 @@ function App() {
                             <a href="/">Blazzer</a>
                         </li>
                         <li>
-                            <a href="/">Legging</a>
-                        </li>
-                        <li>
                             <a href="/">Capri</a>
-                        </li>
-                        <li>
-                            <a href="/">Suit</a>
                         </li>
                         <li>
                             <a href="/">Hoodie</a>
