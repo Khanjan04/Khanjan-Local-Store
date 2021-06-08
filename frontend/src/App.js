@@ -47,34 +47,34 @@ function App() {
                     <button className="sidebar-close-button" onClick={closeMenu}>x</button>
                     <ul className="sidebar-list">
                         <li>
-                            <a href="/">Pants</a>
+                            <a href="/">Pant</a>
                         </li>
                         <li>
-                            <a href="/">Shirts</a>
+                            <a href="/">Shirt</a>
                         </li>
                         <li>
-                            <a href="/">Frocks</a>
+                            <a href="/">Frock</a>
                         </li>
                         <li>
-                            <a href="/">T-Shirts</a>
+                            <a href="/">T-Shirt</a>
                         </li>
                         <li>
-                            <a href="/">Trousers</a>
+                            <a href="/">Blazzer</a>
                         </li>
                         <li>
-                            <a href="/">Leggings</a>
+                            <a href="/">Legging</a>
                         </li>
                         <li>
                             <a href="/">Capri</a>
                         </li>
                         <li>
-                            <a href="/">Suits</a>
+                            <a href="/">Suit</a>
                         </li>
                         <li>
-                            <a href="/">Hoodies</a>
+                            <a href="/">Hoodie</a>
                         </li>
                         <li>
-                            <a href="/">Track Pants</a>
+                            <a href="/">Track Pant</a>
                         </li>
                     </ul>
                 </aside>
