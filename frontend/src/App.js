@@ -67,9 +67,6 @@ function App() {
                         <li>
                             <a href="/">Hoodie</a>
                         </li>
-                        <li>
-                            <a href="/">Track Pant</a>
-                        </li>
                     </ul>
                 </aside>
                 <main className="main">
