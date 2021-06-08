@@ -78,7 +78,9 @@ a:hover {
 .products li {
   list-style-type: none;
   flex: 0 1 30rem;
-  margin: 1rem;
+  margin-bottom: 7rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
   height: 45rem;
   justify-content: center;
   border-bottom: 0.005rem #000000 solid;
@@ -86,7 +88,6 @@ a:hover {
 .product {
   display: flex;
   flex-direction: column;
-  height: 20rem;
 }
 .product-name {
   font-size: 2rem;
