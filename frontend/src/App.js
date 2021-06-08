@@ -86,7 +86,7 @@ function App() {
                     </div>
                 </main>
                 <footer className="footer">
-                    All rights are reserved.
+                    All rights are reserved. Made by Khanjan Varma.
         </footer>
             </div>
         </BrowserRouter>
