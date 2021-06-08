@@ -360,8 +360,13 @@ input {
 }
 
 th {
-  text-align: left;
+  text-align: center;
 }
+
+td {
+  text-align: center;
+}
+
 tbody > tr:nth-child(odd) {
   background-color: #f0f0f0;
 }
