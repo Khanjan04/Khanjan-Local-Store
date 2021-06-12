@@ -36,18 +36,15 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.3rem;
+  padding: 0.2rem;
   position: fixed;
   width: 100%;
   height: fit-content;
-  border-bottom: #000000;
 }
 .brand a {
   color: #020000;
   font-size: 3rem;
   font-weight: bold;
-  text-decoration: none;
-  text-decoration: none;
 }
 .header-links a {
   color: #000000;
