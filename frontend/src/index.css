@@ -36,10 +36,11 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
-  position: fixed; /* Set the navbar to fixed position */
+  padding: 0.3rem;
+  position: fixed;
   width: 100%;
   height: fit-content;
+  border-bottom: #000000;
 }
 .brand a {
   color: #020000;
@@ -87,7 +88,7 @@ a:hover {
 .products li {
   list-style-type: none;
   flex: 0 1 30rem;
-  margin-bottom: 7rem;
+  margin-bottom: 1rem;
   margin-left: 7rem;
   margin-right: 7rem;
   height: 45rem;
@@ -106,6 +107,7 @@ a:hover {
 }
 .product-brand {
   font-size: 2rem;
+  font-family: Helvetica;
   color: #000000;
   align-self: center;
   padding-bottom: 0.5rem;
@@ -116,10 +118,10 @@ a:hover {
   align-self: center;
 }
 .product-image {
-  display: flex;
+  display: flexbox;
   justify-content: center;
   width: 100%;
-  height: auto;
+  height: 100%;
   max-height: 30rem;
 }
 
