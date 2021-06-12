@@ -45,6 +45,7 @@ button {
   color: #020000;
   font-size: 3rem;
   font-weight: bold;
+  padding-left: 10px;
 }
 .header-links a {
   color: #000000;
