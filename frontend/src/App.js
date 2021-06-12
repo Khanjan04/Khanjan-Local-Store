@@ -29,7 +29,7 @@ function App() {
             <div className="grid-container">
                 <header className="header">
                     <div className="brand">
-                        <button onClick={openMenu}>
+                        <button className="option" onClick={openMenu}>
                             &#9776;
                         </button>
                         <Link to="/">Khanjan</Link>

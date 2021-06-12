@@ -10,6 +10,9 @@ body {
 button {
   font-size: 1.6rem;
 }
+.option {
+  color: #000000;
+}
 .full-width {
   width: 100%;
 }
@@ -28,24 +31,29 @@ button {
 }
 .header {
   grid-area: header;
-  background-color: #203040;
+  background-color: #6bf7eb;
   color: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  position: fixed; /* Set the navbar to fixed position */
+  width: 100%;
+  height: fit-content;
 }
 .brand a {
-  color: #ffffff;
-  font-size: 2.5rem;
+  color: #020000;
+  font-size: 3rem;
   font-weight: bold;
   text-decoration: none;
   text-decoration: none;
 }
 .header-links a {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
-  padding-right: 10px;
+  font-size: 2rem;
+  padding-right: 20px;
+  font-weight: bold;
 }
 .header-links a:hover {
   color: #ff8000;
@@ -55,11 +63,12 @@ button {
 }
 .footer {
   grid-area: footer;
-  background-color: #203040;
-  color: #ffffff;
+  background-color: #6bf7eb;
+  color: #000000;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: bold;
 }
 a {
   text-decoration: none;
