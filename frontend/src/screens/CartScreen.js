@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import { addToCart, removeFromCart } from '../actions/cartAction';
 function CartScreen(props){
@@ -25,6 +26,9 @@ function CartScreen(props){
     }
 
     return <div className="cart">
+        <Helmet>
+            <title>Khanjan Store | Cart</title>
+        </Helmet>
         <div className="cart-list">
             <ul className="cart-list-container">
                 <li>

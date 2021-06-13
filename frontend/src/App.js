@@ -1,6 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import './App.css';
 import HomeScreen from './screens/HomeScreen';
 import CartScreen from './screens/CartScreen';
@@ -27,6 +28,9 @@ function App() {
     return (
         <BrowserRouter>
             <div className="grid-container">
+            <Helmet>
+                <title>Khanjan Store | Home</title>
+            </Helmet>
                 <header className="header">
                     <div className="brand">
                         <button className="option" onClick={openMenu}>

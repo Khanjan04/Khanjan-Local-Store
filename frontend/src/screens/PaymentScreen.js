@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { Helmet } from 'react-helmet';
 import { savePayment } from '../actions/cartAction';
 import CheckoutSteps from '../components/CheckoutSteps';
 
@@ -17,6 +17,9 @@ function PaymentScreen(props) {
     }
     return <div>
         <CheckoutSteps step1 step2 step3 ></CheckoutSteps>
+        <Helmet>
+            <title>Khanjan Store | Payment</title>
+        </Helmet>
         <div className="form">
             <form onSubmit={submitHandler} >
                 <ul className="form-container">
