@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import CheckoutSteps from '../components/CheckoutSteps';
 
 function PlaceOrderScreen(props) {
 
@@ -33,7 +32,6 @@ function PlaceOrderScreen(props) {
     }
 
     return <div>
-        <CheckoutSteps Step1 Step2 Step3 Step4 ></CheckoutSteps>
         <Helmet>
             <title>Khanjan Store | Checkout</title>
         </Helmet>
