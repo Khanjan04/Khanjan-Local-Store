@@ -381,7 +381,7 @@ tbody > tr:nth-child(odd) {
 .checkout-steps {
   display: flex;
   justify-content: space-between;
-  width: 40rem;
+  width: 35rem;
   margin: 1rem auto;
 }
 .checkout-steps > div {
