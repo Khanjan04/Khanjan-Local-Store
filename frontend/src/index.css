@@ -32,7 +32,7 @@ button {
 .header {
   grid-area: header;
   background-color: #6bf7eb;
-  color: #ffffff;
+  color: #000000;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -55,7 +55,7 @@ button {
   font-weight: bold;
 }
 .header-links a:hover {
-  color: #ff8000;
+  color: #fa7900;
 }
 .main {
   grid-area: main;
@@ -71,9 +71,10 @@ button {
 }
 a {
   text-decoration: none;
+  color: #000000;
 }
 a:hover {
-  color: #ff8000;
+  color: #fa7900;
 }
 
 /* Home Screen */
@@ -98,10 +99,10 @@ a:hover {
   flex-direction: column;
 }
 .product-name {
+  color: #000000;
   font-size: 2rem;
   font-weight: bold;
   align-self: center;
-  color: #000000;
 }
 .product-brand {
   font-size: 2rem;
