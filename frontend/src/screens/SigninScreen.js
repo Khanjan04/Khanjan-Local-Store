@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import {useDispatch, useSelector} from 'react-redux';
+import { Helmet } from 'react-helmet';
 import { signin } from '../actions/userActions';
 
 function SigninScreen(props) {
@@ -26,6 +27,9 @@ function SigninScreen(props) {
 
     }
     return <div className="form">
+        <Helmet>
+                <title>Khanjan Store | Sign In</title>
+            </Helmet>
         <form onSubmit={submitHandler} >
             <ul className="form-container">
                 <li>

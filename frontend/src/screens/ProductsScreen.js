@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import {useDispatch, useSelector} from 'react-redux';
-import { signin } from '../actions/userActions';
+import { Helmet } from 'react-helmet';
 import { listProducts, saveProduct, deleteProduct } from '../actions/productActions';
 
 function ProductsScreen(props) {
@@ -53,7 +52,9 @@ function ProductsScreen(props) {
         dispatch(deleteProduct(product._id));
     }
     return <div className="content content-margined">
-
+        <Helmet>
+            <title>Khanjan Store | Product List</title>
+        </Helmet>
         <div className="product-header">
             <h2>Products</h2>
             <button className="button primary" onClick={() => openModal({})}>Create Product</button>

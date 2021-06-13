@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import {useDispatch, useSelector} from 'react-redux';
 import { saveShipping } from '../actions/cartAction';
 import CheckoutSteps from '../components/CheckoutSteps';
@@ -21,6 +21,9 @@ function ShippingScreen(props) {
     }
     return <div>
         <CheckoutSteps step1 step2 ></CheckoutSteps>
+        <Helmet>
+                <title>Khanjan Store | Shipping</title>
+            </Helmet>
         <div className="form">
         <form onSubmit={submitHandler} >
             <ul className="form-container">

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import {useDispatch, useSelector} from 'react-redux';
+import { Helmet } from 'react-helmet';
 import { register } from '../actions/userActions';
 
 function RegisterScreen(props) {
@@ -29,6 +30,9 @@ function RegisterScreen(props) {
 
     }
     return <div className="form">
+        <Helmet>
+                <title>Khanjan Store | Register</title>
+            </Helmet>
         <form onSubmit={submitHandler} >
             <ul className="form-container">
                 <li>

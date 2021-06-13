@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
+import { Helmet } from 'react-helmet';
 import { detailsProduct } from '../actions/productActions';
 
 function ProductScreen(props) {
@@ -22,6 +23,9 @@ function ProductScreen(props) {
     }
 
     return <div>
+        <Helmet>
+            <title>Khanjan Store | Product</title>
+        </Helmet>
         <div className="back-to-result">
             <Link to="/"><h4> ⬅ Back to Home Page </h4></Link>
         </div>
