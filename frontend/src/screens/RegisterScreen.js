@@ -66,7 +66,7 @@ function RegisterScreen(props) {
                     <button type="submit" className="button primary">Register</button>
                 </li>
                 <li>
-                    Already have an Account ?     <Link to={redirect === "/"? "signin": "signin?redirect=" + redirect} className="button secondary text-center">Create your Account</Link>
+                    Already have an Account ?     <Link to={redirect === "/"? "signin": "signin?redirect=" + redirect} className="button secondary text-center">Sign In</Link>
                 </li>
             </ul>
         </form>
