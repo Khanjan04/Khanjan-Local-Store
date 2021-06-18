@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import './App.css';
+import './index.css';
 import HomeScreen from './screens/HomeScreen';
 import CartScreen from './screens/CartScreen';
 import ProductScreen from './screens/ProductScreen';
@@ -31,19 +32,28 @@ function App() {
             <Helmet>
                 <title>Khanjan Store | Home</title>
             </Helmet>
-                <header className="header">
-                    <div className="brand">
-                        <button className="option" onClick={openMenu}>
-                            &#9776;
-                        </button>
-                        <Link to="/">Khanjan Store</Link>
-                    </div>
-                    <div className="header-links">
-                        <a href="cart">Cart</a>
-                        {
-                            userInfo ? <Link to="/profile">{userInfo.name}</Link> :
-                                <Link to="/signin">Sign In</Link>
-                        }
+                <header>
+                    <div className="nav">
+                        <div className="nav_left">
+                            <div className="nav_logo">
+                                <button className="option" onClick={openMenu}>
+                                    &#9776;
+                                </button>
+                                <Link to="/">Khanjan Store</Link>
+                            </div>
+                        </div>
+                        <div className="nav_right">
+                            <div className="header-links">
+                                <a href="cart">Cart</a>
+                                {
+                                    userInfo ? <Link to="/profile">{userInfo.name}</Link> :
+                                        <Link to="/signin">Sign In</Link>
+                                }
+                            </div>
+                        </div>
+                        <div className="nav_fill">
+                            
+                        </div>
                     </div>
                 </header>
                 <aside className="sidebar">
