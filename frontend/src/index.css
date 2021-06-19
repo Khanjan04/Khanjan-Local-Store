@@ -41,6 +41,7 @@ header {
   position: relative;
   float: left;
   width: auto;
+  padding-left: 15px;
 }
 .nav_right {
   position: relative;
@@ -215,47 +216,6 @@ section {
   max-height: 30rem;
 }
 
-/* Side bar*/
-.brand button {
-  font-size: 2.5rem;
-  padding: 0.5rem;
-  background: none;
-  border: none;
-  color: #ffffff;
-  cursor: pointer;
-}
-.sidebar {
-  position: fixed;
-  transition: all 0.5s;
-  transform: translateX(-30rem);
-  width: 23rem;
-  background-color: #f0f0f0;
-  height: 100%;
-  padding-left: 15px;
-}
-.sidebar-list {
-  font-size: 1.8rem;
-}
-.sidebar-list li {
-  padding-bottom: 7px;
-}
-.sidebar.open {
-  transform: translateX(0);
-}
-.sidebar-close-button {
-  border-radius: 50%;
-  border: 0.1rem #000000 solid;
-  width: 3rem;
-  height: 3rem;
-  padding: 0.5rem;
-  font-size: 2rem;
-  padding-top: 0;
-  cursor: pointer;
-  position: absolute;
-  right: 0.5rem;
-  top: 1.5rem;
-}
-
 /* Product Details */
 .details {
   display: flex;
@@ -308,7 +268,8 @@ section {
 
 .back-to-result {
   margin-left: 4rem;
-  font-size: larger;
+  font-size: large;
+  padding-top: 35px;
 }
 .details-action {
   border: 0.1rem #000000 solid;
@@ -353,10 +314,11 @@ section {
 }
 .cart-list {
   flex: 3 8 50rem;
+  padding-top: 35px;
 }
 .cart-action {
   flex: 1 1 20rem;
-  margin-top: 35px;
+  margin-top: 70px;
   margin-left: 0px;
   margin-right: 30px;
   background-color: #f8f8f8;
@@ -424,6 +386,7 @@ section {
   justify-content: center;
   align-items: center;
   height: 100%;
+  margin-top: 70px;
 }
 .form-container {
   display: flex;
@@ -492,6 +455,7 @@ tbody > tr:nth-child(odd) {
   flex-grow: wrap;
   padding: 1rem;
   justify-content: space-between;
+  margin-top: 60px;
 }
 .placeorder-info {
   flex: 3 1 60rem;

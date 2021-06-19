@@ -19,13 +19,6 @@ function App() {
     const userSignin = useSelector(state => state.userSignin);
     const { userInfo } = userSignin;
 
-    const openMenu = () => {
-        document.querySelector(".sidebar").classList.add("open");
-    }
-    const closeMenu = () => {
-        document.querySelector(".sidebar").classList.remove("open");
-    }
-
     return (
         <BrowserRouter>
             <div className="grid-container">
@@ -36,7 +29,7 @@ function App() {
                     <div className="nav">
                         <div className="nav_left">
                             <div className="nav_logo">
-                                <button className="option" onClick={openMenu}>
+                                <button className="option">
                                     &#9776;
                                 </button>
                                 <Link to="/">Khanjan Store</Link>
@@ -59,7 +52,7 @@ function App() {
                         <div className="nav_cat">
                             <ul>
                                 <li>
-                                    <div className="category" href="/">Shopping Categories:- </div>
+                                    <div className="category" href="/">Shopping Categories :- </div>
                                 </li>
                                 <li>
                                     <a href="/">Pant</a>
@@ -86,33 +79,6 @@ function App() {
                         </div>
                     </nav>
                 </header>
-                <aside className="sidebar">
-                    <h3>Shopping Categories</h3>
-                    <button className="sidebar-close-button" onClick={closeMenu}>x</button>
-                    <ul className="sidebar-list">
-                        <li>
-                            <a href="/">Pant</a>
-                        </li>
-                        <li>
-                            <a href="/">Shirt</a>
-                        </li>
-                        <li>
-                            <a href="/">Frock</a>
-                        </li>
-                        <li>
-                            <a href="/">T-Shirt</a>
-                        </li>
-                        <li>
-                            <a href="/">Blazzer</a>
-                        </li>
-                        <li>
-                            <a href="/">Capri</a>
-                        </li>
-                        <li>
-                            <a href="/">Hoodie</a>
-                        </li>
-                    </ul>
-                </aside>
                 <main className="main">
                     <div className="content">
                         <Route path="/products" component={ProductsScreen} />
