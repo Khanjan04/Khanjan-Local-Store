@@ -22,11 +22,11 @@ function HomeScreen(props) {
             <section>
                 <div id="slider">
                     <figure>
-                        <img src="images/c1.png"></img>
-                        <img src="images/c2.png"></img>
-                        <img src="images/c3.png"></img>
-                        <img src="images/c1.png"></img>
-                        <img src="images/c3.png"></img>
+                        <Link><img src="images/c1.png"></img></Link>
+                        <Link><img src="images/c2.png"></img></Link>
+                        <Link><img src="images/c3.png"></img></Link>
+                        <Link><img src="images/c2.png"></img></Link>
+                        <Link><img src="images/c1.png"></img></Link>
                     </figure>
                 </div>
             </section>
