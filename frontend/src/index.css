@@ -73,6 +73,30 @@ header {
 .header-links a:hover {
   color: #fa7900;
 }
+#nav-main {
+  background-color: #2d435e;
+}
+#nav-main a {
+  color: #ffffff;
+}
+#nav-main a:hover {
+  color: #fa7900;
+}
+#nav-main ul {
+  list-style-type: none;
+  position: relative;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  text-align: center;
+  margin-top: 66px;
+}
+#nav-main li {
+  display: inline-block;
+  padding-right: 40px;
+}
+.category {
+  font-size: large;
+}
 .main {
   grid-area: main;
 }
@@ -96,7 +120,7 @@ a:hover {
 
 /* Home Screen */
 section {
-  padding-top: 20px;
+  padding-top: 50px;
   padding-left: 20px;
   padding-right: 20px;
 }

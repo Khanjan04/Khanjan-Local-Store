@@ -55,6 +55,36 @@ function App() {
                             
                         </div>
                     </div>
+                    <nav id="nav-main">
+                        <div className="nav_cat">
+                            <ul>
+                                <li>
+                                    <div className="category" href="/">Shopping Categories:- </div>
+                                </li>
+                                <li>
+                                    <a href="/">Pant</a>
+                                </li>
+                                <li>
+                                    <a href="/">Shirt</a>
+                                </li>
+                                <li>
+                                    <a href="/">Frock</a>
+                                </li>
+                                <li>
+                                    <a href="/">T-Shirt</a>
+                                </li>
+                                <li>
+                                    <a href="/">Blazzer</a>
+                                </li>
+                                <li>
+                                    <a href="/">Capri</a>
+                                </li>
+                                <li>
+                                    <a href="/">Hoodie</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
                 </header>
                 <aside className="sidebar">
                     <h3>Shopping Categories</h3>
