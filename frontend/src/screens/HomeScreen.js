@@ -18,6 +18,10 @@ function HomeScreen(props) {
 
     return loading? <div>Loading...</div>:
         error? <div>{error}</div>:
+        <div>
+            <section>
+                
+            </section>
             <ul className="products">
             {
                 products.map(product =>
@@ -32,7 +36,7 @@ function HomeScreen(props) {
                         </div>
                     </li> )
             }
-            </ul> 
-
+            </ul>
+        </div>
 }
 export default HomeScreen;
