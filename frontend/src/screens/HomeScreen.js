@@ -20,7 +20,15 @@ function HomeScreen(props) {
         error? <div>{error}</div>:
         <div>
             <section>
-                
+                <div id="slider">
+                    <figure>
+                        <img src="images/c1.png"></img>
+                        <img src="images/c2.png"></img>
+                        <img src="images/c3.png"></img>
+                        <img src="images/c1.png"></img>
+                        <img src="images/c3.png"></img>
+                    </figure>
+                </div>
             </section>
             <ul className="products">
             {
