@@ -101,14 +101,32 @@ header {
 .main {
   grid-area: main;
 }
-.footer {
+footer {
   grid-area: footer;
+}
+#top-footer {
+  background-color: #2d4664;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  height: 45px;
+}
+#top-footer a {
+  color: #ffffff;
+}
+#top-footer a:hover {
+  color: #fa7900;
+}
+.main-footer {
   background-color: #232f3e;
   color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bold;
+  font-size: larger;
+  height: 70px;
 }
 a {
   text-decoration: none;
@@ -169,6 +187,8 @@ section {
     left: -400%;
   }
 }
+
+/* Product Screen */
 .products {
   display: flex;
   justify-content: center;
