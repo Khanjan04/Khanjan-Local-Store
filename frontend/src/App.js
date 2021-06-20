@@ -92,9 +92,16 @@ function App() {
                         <Route path="/" exact={true} component={HomeScreen} />
                     </div>
                 </main>
-                <footer className="footer">
-                    All rights are reserved. Made by Khanjan Varma.
-        </footer>
+                <footer>
+                    <nav id="top-footer">
+                        <div className="to-top">
+                            <a href="/">Back to Top  ⬆</a>
+                        </div>
+                    </nav>
+                    <div className="main-footer">
+                        All rights are reserved. Made by Khanjan Varma.
+                    </div>
+                </footer>
             </div>
         </BrowserRouter>
     );
