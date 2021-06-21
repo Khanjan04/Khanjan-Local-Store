@@ -45,6 +45,11 @@ function HomeScreen(props) {
                     </li> )
             }
             </ul>
+            <nav id="top-footer">
+                <div className="to-top">
+                    <a href="/">Back to Top  ⬆</a>
+                </div>
+            </nav>
         </div>
 }
 export default HomeScreen;
