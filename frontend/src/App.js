@@ -98,6 +98,19 @@ function App() {
                             <a href="/">Back to Top  ⬆</a>
                         </div>
                     </nav>
+                    <div className="middle-footer">
+                        <div className="connect" href="/">Connect with Us :-  </div>
+                        <li>
+                            <a href="https://github.com/Khanjan04" target="_blank">GitHub</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/khanjan-varma-5b3394183/" target="_blank">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://www.codechef.com/users/khan_0411" target="_blank">CodeChef</a>
+                        </li>
+                    </div>
+                    <hr class="solid"></hr>
                     <div className="main-footer">
                         All rights are reserved. Made by Khanjan Varma.
                     </div>
