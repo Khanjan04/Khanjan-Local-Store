@@ -93,11 +93,6 @@ function App() {
                     </div>
                 </main>
                 <footer>
-                    <nav id="top-footer">
-                        <div className="to-top">
-                            <a href="/">Back to Top  ⬆</a>
-                        </div>
-                    </nav>
                     <div className="middle-footer">
                         <div className="connect" href="/">Connect with Us :-  </div>
                         <li>
